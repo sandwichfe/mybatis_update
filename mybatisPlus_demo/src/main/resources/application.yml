@@ -4,3 +4,6 @@ spring:
     url: jdbc:mysql://xx:3306/MyTest
     username: root
     password: xx
+
+logging:
+  config: classpath:log-back.xml
